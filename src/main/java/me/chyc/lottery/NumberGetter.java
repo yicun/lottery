@@ -109,8 +109,7 @@ public class NumberGetter {
     }
 
     public static void main(String args[]) throws IOException {
-        getSSQ(2003001, 2014200, new File("lottery/src/main/resources/ssq.num"));
-        getDLT(07001, 14200, new File("lottery/src/main/resources/dlt.num"));
-//        List<Number> nums = loadNumbers(new File("lottery/src/main/resources/ssq.num"));
+        getSSQ(2003001, 2014200, new File("/Users/chyc/Workspaces/Data/lottery/ssq.num"));
+        getDLT(07001, 14200, new File("/Users/chyc/Workspaces/Data/lottery/dlt.num"));
     }
 }
