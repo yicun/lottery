@@ -1,4 +1,4 @@
-package me.chyc.lottery;
+package me.chyc.linkedin.lottery;
 
 import java.io.*;
 import java.util.ArrayList;

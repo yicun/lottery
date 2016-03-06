@@ -1,4 +1,4 @@
-package me.chyc.lottery;
+package me.chyc.linkedin.lottery;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -95,5 +95,21 @@ public class Number {
                 "no=" + no +
                 ", nums=" + nums +
                 '}';
+    }
+
+    public int getNo() {
+        return no;
+    }
+
+    public void setNo(int no) {
+        this.no = no;
+    }
+
+    public List<Integer> getNums() {
+        return nums;
+    }
+
+    public void setNums(List<Integer> nums) {
+        this.nums = nums;
     }
 }
