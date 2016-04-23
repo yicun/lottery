@@ -1,4 +1,4 @@
-package me.chyc.linkedin.lottery;
+package me.chyc.lottery;
 
 import java.io.*;
 import java.util.HashMap;
@@ -93,8 +93,8 @@ public class ShuangSeQiu {
                 if (probability.containsKey(comb))
                     count = probability.get(comb);
 
-                    int blue = numbers.get(i).getBlue();
-                            count[blue - 1] += 1.0;
+                int blue = numbers.get(i).getBlue();
+                count[blue - 1] += 1.0;
 
                 probability.put(comb, count);
             }
@@ -153,6 +153,7 @@ public class ShuangSeQiu {
 
         return predicts;
     }
+
     public static Double[] Red2BluePredictor(List<Number> numbers, int n) {
         HashMap<MultiTuple<Integer>, Double[]> probability = Red2BlueCooccurrenceProbability(numbers, n);
         Set<MultiTuple<Integer>> combination = new HashSet<MultiTuple<Integer>>();
@@ -189,7 +190,6 @@ public class ShuangSeQiu {
 
         return predicts;
     }
-
 
 
     public static Double[][] Red2BlueCooccurrenceProbability(List<Number> numbers) {

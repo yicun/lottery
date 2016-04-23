@@ -1,6 +1,4 @@
-package me.chyc.linkedin.lottery;
-
-import me.chyc.linkedin.entity.SortItem;
+package me.chyc.lottery;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

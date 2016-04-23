@@ -1,4 +1,4 @@
-package me.chyc.linkedin.lottery;
+package me.chyc.lottery;
 
 /**
  * Created by chyc on 8/2/14.
