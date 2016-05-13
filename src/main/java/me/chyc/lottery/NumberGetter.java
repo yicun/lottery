@@ -1,4 +1,4 @@
-package me.chyc.linkedin.lottery;
+package me.chyc.lottery;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
@@ -110,6 +110,6 @@ public class NumberGetter {
 
     public static void main(String args[]) throws IOException {
         getSSQ(2003001, 2014250, new File("/Users/chyc/Workspaces/Data/lottery/ssq.num"));
-        getDLT(07001, 14250, new File("/Users/chyc/Workspaces/Data/lottery/dlt.num"));
+//        getDLT(07001, 14250, new File("/Users/chyc/Workspaces/Data/lottery/dlt.num"));
     }
 }
